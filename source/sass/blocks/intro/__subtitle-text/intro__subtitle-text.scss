@@ -1,0 +1,10 @@
+.intro__subtitle-text {
+  width: 100%;
+  max-width: 690px;
+}
+
+@media (max-width: 1023px) {
+  .intro__subtitle-text {
+    max-width: 356px;
+  }
+}

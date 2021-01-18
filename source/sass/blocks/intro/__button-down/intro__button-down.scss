@@ -1,0 +1,35 @@
+.intro__button-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+
+  opacity: 0.5;
+
+  transform: rotate(-90deg);
+
+  margin: 0;
+  padding: 0;
+  margin-left: -33px;
+
+  width: 93px;
+  height: 16px;
+
+  &:hover,
+  &:focus {
+    color: #00B2FF;
+  }
+}
+
+@media (max-width: 1023px) {
+  .intro__button-down {
+    display: none;
+  }
+}

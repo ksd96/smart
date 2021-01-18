@@ -1,0 +1,32 @@
+.intro__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1510px;
+
+  margin: 0 auto;
+  padding: 0 44px;
+  padding-top: 231px;
+  padding-bottom: 128px;
+}
+
+@media (max-width: 1023px) {
+  .intro__wrapper {
+    padding: 0 88px;
+    padding-top: 114px;
+    padding-bottom: 163px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro__wrapper {
+    max-width: 450px;
+
+    padding: 0 16px;
+    padding-top: 231px;
+    padding-bottom: 70px;
+  }
+}
+

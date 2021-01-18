@@ -1,0 +1,62 @@
+.intro__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  margin: 0;
+  padding: 0;
+  margin-left: 98px;
+  margin-bottom: 131px;
+
+  width: 407px;
+  height: 55px;
+
+  background-color: #00B2FF;
+
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+
+  &::before {
+    content: 'Получить бесплатную консультацию';
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #fff;
+    color: #00B2FF;
+  }
+}
+
+@media (max-width: 1023px) {
+  .intro__button {
+    width: 379px;
+
+    margin-left: 51px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro__button {
+    width: 100%;
+    max-width: 379px;
+
+    margin: 0 auto;
+
+    &::before {
+      content: 'Бесплатная консультация';
+    }
+  }
+}
