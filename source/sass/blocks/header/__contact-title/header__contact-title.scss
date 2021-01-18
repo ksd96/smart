@@ -1,0 +1,14 @@
+.header__contact-title {
+  margin: 0;
+  padding: 0;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+  .header__contact-title {
+    display: none;
+  }
+}

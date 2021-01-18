@@ -1,0 +1,14 @@
+.header__link-logo {
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .header__link-logo {
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+  }
+}

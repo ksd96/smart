@@ -1,3 +1,19 @@
-h1 {
-  color: red;
-}
+@import './normalize.scss';
+
+@import '../fonts/fonts.scss';
+
+@import './blocks/page/page.scss';
+@import './blocks/page/__wrapper/page__wrapper.scss';
+
+@import './blocks/header/header.scss';
+@import './blocks/header/__link-logo/header__link-logo.scss';
+@import './blocks/header/__logo/header__logo.scss';
+@import './blocks/header/__wrapper/header__wrapper.scss';
+@import './blocks/header/__contacts/header__contacts.scss';
+@import './blocks/header/__item/header__item.scss';
+@import './blocks/header/__contact/header__contact.scss';
+@import './blocks/header/__contact-icon/header__contact-icon.scss';
+@import './blocks/header/__contact-icon/_type/header__contact-icon_type_email.scss';
+@import './blocks/header/__contact-icon/_type/header__contact-icon_type_phone.scss';
+@import './blocks/header/__contact-title/header__contact-title.scss';
+@import './blocks/header/__button/header__button.scss';

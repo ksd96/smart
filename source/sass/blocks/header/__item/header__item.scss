@@ -1,0 +1,21 @@
+.header__item {
+  margin: 0;
+  padding: 0;
+  margin-right: 88px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header__item {
+    margin-right: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__item {
+    margin-right: 22px;
+  }
+}

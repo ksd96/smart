@@ -1,0 +1,42 @@
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 180px;
+  height: 45px;
+
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+
+  background-color: inherit;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #00B2FF;
+    border: 1px solid #00B2FF;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header__button {
+    display: none;
+  }
+}
