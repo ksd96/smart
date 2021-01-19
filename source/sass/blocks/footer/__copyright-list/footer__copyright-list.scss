@@ -1,0 +1,29 @@
+.footer__copyright-list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 14px 50px;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1510px;
+
+  list-style: none;
+}
+
+@media (max-width: 1023px) {
+  .footer__copyright-list {
+    padding: 21px 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__copyright-list {
+    flex-direction: column;
+    align-items: center;
+
+    padding: 28px 15px;
+  }
+}
+

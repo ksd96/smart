@@ -1,0 +1,13 @@
+.footer__column_type_nav {
+  max-width: 657px;
+}
+
+@media (max-width: 767px) {
+  .footer__column_type_nav {
+    max-width: 100%;
+
+    padding: 0 15px;
+
+    border-bottom: 1px solid rgba(98, 105, 98, 0.2);
+  }
+}

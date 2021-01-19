@@ -1,0 +1,28 @@
+.footer__wrapper-top {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0 50px;
+  padding-top: 65px;
+  padding-bottom: 57px;
+
+  border-bottom: 1px solid rgba(98, 105, 98, 0.2);
+}
+
+@media (max-width: 1023px) {
+  .footer__wrapper-top {
+    flex-direction: column;
+
+    padding: 0;
+    padding-top: 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__wrapper-top {
+    padding-top: 46px;
+
+    border: none;
+  }
+}

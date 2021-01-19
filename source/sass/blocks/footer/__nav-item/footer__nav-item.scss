@@ -1,0 +1,12 @@
+.footer__nav-item {
+  margin: 0;
+  padding: 0;
+  margin-right: 65px;
+
+  width: 100%;
+  max-width: 243px;
+
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
+}

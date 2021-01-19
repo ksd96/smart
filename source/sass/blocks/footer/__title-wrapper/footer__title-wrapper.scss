@@ -1,0 +1,15 @@
+.footer__title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .footer__title-wrapper {
+    padding: 29px 0;
+    padding-bottom: 26px;
+  }
+}

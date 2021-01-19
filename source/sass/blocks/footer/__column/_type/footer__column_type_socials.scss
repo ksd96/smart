@@ -1,0 +1,28 @@
+.footer__column_type_socials {
+  max-width: 424px;
+}
+
+@media (max-width: 1023px) {
+  .footer__column_type_socials {
+    box-sizing: border-box;
+    max-width: 100%;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+    padding-bottom: 21px;
+
+    border-bottom: 1px solid rgba(98, 105, 98, 0.2);
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__column_type_socials {
+    flex-direction: column;
+
+    padding: 0 15px;
+    padding-bottom: 51px;
+  }
+}

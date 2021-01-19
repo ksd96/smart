@@ -1,0 +1,28 @@
+.footer__company {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .footer__company {
+    display: block;
+
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1B2D37;
+    opacity: 0.5;
+
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__company {
+    margin-bottom: 31px;
+  }
+}

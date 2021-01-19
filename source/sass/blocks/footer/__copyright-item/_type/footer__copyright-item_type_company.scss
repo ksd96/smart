@@ -1,0 +1,9 @@
+.footer__copyright-item_type_company {
+  margin-right: 142px;
+}
+
+@media (max-width: 1023px) {
+  .footer__copyright-item_type_company {
+    display: none;
+  }
+}

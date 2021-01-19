@@ -1,0 +1,19 @@
+.footer__column_type_contacts {
+  max-width: 333px;
+}
+
+@media (max-width: 1023px) {
+  .footer__column_type_contacts {
+    max-width: 345px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__column_type_contacts {
+    max-width: 100%;
+
+    padding: 0 15px;
+
+    border-bottom: 1px solid rgba(98, 105, 98, 0.2);
+  }
+}

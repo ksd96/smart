@@ -1,0 +1,19 @@
+.footer__logo-link {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 53px;
+
+  text-decoration: none;
+}
+
+@media (max-width: 1023px) {
+  .footer__logo-link {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__logo-link {
+    margin-bottom: 22px;
+  }
+}

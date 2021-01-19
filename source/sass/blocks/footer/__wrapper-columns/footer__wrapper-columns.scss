@@ -1,0 +1,27 @@
+.footer__wrapper-columns {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  max-width: 994px;
+}
+
+@media (max-width: 1023px) {
+  .footer__wrapper-columns {
+    box-sizing: border-box;
+
+    padding: 0 25px;
+    padding-top: 38px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__wrapper-columns {
+    flex-direction: column;
+
+    padding: 0;
+  }
+}
