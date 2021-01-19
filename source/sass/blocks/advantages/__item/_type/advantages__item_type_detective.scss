@@ -1,0 +1,34 @@
+.advantages__item_type_detective {
+  &::before {
+    content: url(../img/icon-detective.svg);
+
+    width: 36px;
+    height: 31px;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 19px;
+  }
+
+  &:hover::before {
+    content: url(../img/icon-detective-hover.svg);
+  }
+}
+
+@media (max-width: 1023px) {
+  .advantages__item_type_detective {
+    &::before {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages__item_type_detective  {
+    &::before {
+      margin-bottom: 13px;
+    }
+  }
+}
+
+

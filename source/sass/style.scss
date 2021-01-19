@@ -3,6 +3,7 @@
 @import '../fonts/fonts.scss';
 
 @import './blocks/page/page.scss';
+@import './blocks/page/__sprite/page__sprite.scss';
 
 @import './blocks/header/header.scss';
 @import './blocks/header/__container/header__container.scss';
@@ -58,3 +59,14 @@
 @import './blocks/footer/__copyright-item/_type/footer__copyright-item_type_developer.scss';
 @import './blocks/footer/__copyright-item/_type/footer__copyright-item_type_rights.scss';
 @import './blocks/footer/__item/_closed/footer__item_closed.scss';
+
+@import './blocks/advantages/advantages.scss';
+@import './blocks/advantages/__list/advantages__list.scss';
+@import './blocks/advantages/__item/advantages__item.scss';
+@import './blocks/advantages/__item/_type/advantages__item_type_stopwatch.scss';
+@import './blocks/advantages/__item/_type/advantages__item_type_detective.scss';
+@import './blocks/advantages/__item/_type/advantages__item_type_hired.scss';
+@import './blocks/advantages/__item/_type/advantages__item_type_tag.scss';
+@import './blocks/advantages/__icon/advantages__icon.scss';
+@import './blocks/advantages/__title/advantages__title.scss';
+@import './blocks/advantages/__text/advantages__text.scss';

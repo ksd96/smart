@@ -1,0 +1,26 @@
+.advantages {
+  margin: 0 auto;
+  padding: 0 50px;
+  padding-top: 112px;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1270px;
+}
+
+@media (max-width: 1023px) {
+  .advantages {
+    padding: 0 25px;
+    padding-top: 54px;
+
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages {
+    padding: 0 15px;
+    padding-top: 37px;
+  }
+}
+
