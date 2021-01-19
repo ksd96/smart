@@ -3,9 +3,9 @@
 @import '../fonts/fonts.scss';
 
 @import './blocks/page/page.scss';
-@import './blocks/page/__wrapper/page__wrapper.scss';
 
 @import './blocks/header/header.scss';
+@import './blocks/header/__container/header__container.scss';
 @import './blocks/header/__link-logo/header__link-logo.scss';
 @import './blocks/header/__logo/header__logo.scss';
 @import './blocks/header/__wrapper/header__wrapper.scss';

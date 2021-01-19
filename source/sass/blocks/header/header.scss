@@ -1,27 +1,8 @@
 .header {
-  margin: 0 auto;
-  padding: 0 50px;
-  padding-top: 31px;
-
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1510px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #1B2D37;
+  background-image: url('../img/background-header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media (max-width: 1023px) {
-  .header {
-    padding: 0 25px;
-    padding-top: 20px;
-  }
-}
-
-@media (max-width: 767px) {
-  .header {
-    padding: 0 17px;
-    padding-top: 17px;
-  }
-}
