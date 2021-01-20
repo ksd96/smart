@@ -1,0 +1,25 @@
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+  padding-left: 180px;
+
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .about__wrapper {
+    padding-left: 188px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__wrapper {
+    padding-left: 0;
+  }
+}
+

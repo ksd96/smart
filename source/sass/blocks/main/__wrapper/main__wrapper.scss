@@ -1,0 +1,16 @@
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+
+
+  background-image: url('../img/background-main.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

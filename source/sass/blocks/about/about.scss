@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+
+  margin: 0 auto;
+  padding: 0 50px;
+  padding-top: 77px;
+  padding-bottom: 110px;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1270px;
+
+  background-image: url('../img/about-image.png');
+  background-size: 220px 317px;
+  background-repeat: no-repeat;
+  background-position: top 80px left 20px;
+}
+
+@media (max-width: 1023px) {
+  .about {
+    padding: 0 25px;
+    padding-top: 40px;
+    padding-bottom: 84px;
+
+    background-size: 250px 360px;
+    background-position: top 39px left -8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    background: none;
+
+    padding: 0 16px;
+    padding-top: 27px;
+    padding-bottom: 64px;
+  }
+}

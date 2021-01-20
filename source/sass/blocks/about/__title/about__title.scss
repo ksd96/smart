@@ -1,0 +1,30 @@
+.about__title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  color: #666666;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1023px) {
+  .about__title {
+    font-size: 32px;
+    line-height: 140.62%;
+
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__title {
+    font-size: 28px;
+    line-height: 140.62%;
+
+    margin-bottom: 20px;
+  }
+}
