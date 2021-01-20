@@ -1,0 +1,36 @@
+.products__item {
+  display: flex;
+
+  width: 100%;
+  max-width: 370px;
+  min-height: 620px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .products__item {
+    max-width: 100%;
+    min-height: 256px;
+
+    margin: 0;
+    margin-bottom: 46px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .products__item {
+    margin-bottom: 30px;
+  }
+}

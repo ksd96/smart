@@ -1,0 +1,31 @@
+.products__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  padding: 0 50px;
+  padding-top: 90px;
+  padding-bottom: 127px;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1270px;
+}
+
+@media (max-width: 1023px) {
+  .products__wrapper {
+    max-width: 100%;
+
+    padding: 0 25px;
+    padding-top: 49px;
+    padding-bottom: 127px;
+  }
+}
+
+@media (max-width: 767px) {
+  .products__wrapper {
+    padding: 0 15px;
+    padding-top: 51px;
+    padding-bottom: 35px;
+  }
+}

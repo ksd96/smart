@@ -1,0 +1,28 @@
+.products__title {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  color: #FFFFFF;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 51px;
+}
+
+@media (max-width: 1023px) {
+  .products__title {
+    font-size: 32px;
+    line-height: 140.62%;
+  }
+}
+
+@media (max-width: 767px) {
+  .products__title {
+    font-size: 28px;
+
+    margin-bottom: 42px;
+  }
+}
+
