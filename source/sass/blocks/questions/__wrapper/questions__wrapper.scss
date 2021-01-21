@@ -1,0 +1,33 @@
+.questions__wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 0 auto;
+  padding: 0 50px;
+  padding-top: 93px;
+  padding-bottom: 113px;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1270px;
+}
+
+@media (max-width: 1023px) {
+  .questions__wrapper {
+    max-width: 100%;
+
+    padding: 0 90px;
+    padding-top: 80px;
+    padding-bottom: 103px;
+  }
+}
+
+@media (max-width: 767px) {
+  .questions__wrapper {
+    max-width: 100%;
+
+    padding: 0 15px;
+    padding-top: 29px;
+    padding-bottom: 41px;
+  }
+}

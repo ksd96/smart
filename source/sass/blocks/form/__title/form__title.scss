@@ -1,0 +1,29 @@
+.form__title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  color: #FFFFFF;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 1023px) {
+  .form__title {
+    font-size: 32px;
+    line-height: 140.62%;
+
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .form__title {
+    font-size: 28px;
+
+    margin-bottom: 13px;
+  }
+}

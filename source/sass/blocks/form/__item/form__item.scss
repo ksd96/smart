@@ -1,0 +1,44 @@
+.form__item {
+  box-sizing: border-box;
+  width: calc( 50% - 15px);
+
+  margin: 0;
+  padding: 14px 16px;
+  margin-right: 30px;
+
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+  border: none;
+
+  background-color: rgba(255, 255, 255, 0.1);
+
+  &::placeholder {
+    color: #FFFFFF;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:focus::placeholder {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .form__item {
+    width: 100%;
+
+    margin: 0;
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.form__button-wrapper {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .form__button-wrapper {
+    flex-direction: column;
+  }
+}

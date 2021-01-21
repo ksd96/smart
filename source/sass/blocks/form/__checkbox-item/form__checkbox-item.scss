@@ -1,0 +1,9 @@
+.form__checkbox-item {
+  display: none;
+
+  &:checked + label::before {
+    background-image: url("../img/icon-check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

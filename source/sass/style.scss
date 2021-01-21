@@ -89,3 +89,21 @@
 @import './blocks/products/__item-title/products__item-title.scss';
 @import './blocks/products/__button/products__button.scss';
 @import './blocks/products/__icon/product__icon.scss';
+
+@import './blocks/questions/questions.scss';
+@import './blocks/questions/__wrapper/questions__wrapper.scss';
+
+@import './blocks/form/form.scss';
+@import './blocks/form/__title/form__title.scss';
+@import './blocks/form/__subtitle/form__subtitle.scss';
+@import './blocks/form/__wrapper/form__wrapper.scss';
+@import './blocks/form/__item/form__item.scss';
+@import './blocks/form/__question/form__question.scss';
+@import './blocks/form/__button-wrapper/form__button-wrapper.scss';
+@import './blocks/form/__submit/form__submit.scss';
+@import './blocks/form/__checkbox-item/form__checkbox-item.scss';
+@import './blocks/form/__label/form__label.scss';
+@import './blocks/form/__span/form__span.scss';
+@import './blocks/form/__checkbox/form__checkbox.scss';
+@import './blocks/form/__invalid-text/form__invalid-text.scss';
+@import './blocks/form/__invalid-text/_active/form__invalid-text_active.scss';

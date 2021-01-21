@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+
+  max-width: 570px;
+
+  background: #00B2FF;
+}
+
+@media(max-width: 1023px) {
+  .form {
+    width: 100%;
+    max-width: 100%;
+  }
+}
