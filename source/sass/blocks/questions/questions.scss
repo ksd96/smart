@@ -10,6 +10,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1745px 765px;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url('../img/background-questions-retina.png');
+  }
 }
 
 @media (max-width: 1023px) {

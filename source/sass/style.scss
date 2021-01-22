@@ -8,7 +8,6 @@
 @import './blocks/header/header.scss';
 @import './blocks/header/__container/header__container.scss';
 @import './blocks/header/__link-logo/header__link-logo.scss';
-@import './blocks/header/__logo/header__logo.scss';
 @import './blocks/header/__wrapper/header__wrapper.scss';
 @import './blocks/header/__contacts/header__contacts.scss';
 @import './blocks/header/__item/header__item.scss';
@@ -94,6 +93,7 @@
 @import './blocks/questions/__wrapper/questions__wrapper.scss';
 
 @import './blocks/form/form.scss';
+@import './blocks/form/__button-close/form__button-close.scss';
 @import './blocks/form/__title/form__title.scss';
 @import './blocks/form/__subtitle/form__subtitle.scss';
 @import './blocks/form/__wrapper/form__wrapper.scss';
@@ -107,3 +107,17 @@
 @import './blocks/form/__checkbox/form__checkbox.scss';
 @import './blocks/form/__invalid-text/form__invalid-text.scss';
 @import './blocks/form/__invalid-text/_active/form__invalid-text_active.scss';
+@import './blocks/form/_type/form_type_popup.scss';
+@import './blocks/form/__button-close/_type/form__button-close_type_popup.scss';
+@import './blocks/form/__title/_type/form__title_type_popup.scss';
+@import './blocks/form/__subtitle/_type/form__subtitle_type_popup.scss';
+@import './blocks/form/__wrapper/_type/form__wrapper_type_popup.scss';
+@import './blocks/form/__item/_type/form__item_type_popup.scss';
+@import './blocks/form/__question/_type/form__question_type_popup.scss';
+@import './blocks/form/__button-wrapper/_type/form__button-wrapper_type_popup.scss';
+@import './blocks/form/__submit/_type/form__submit_type_popup.scss';
+@import './blocks/form/__label/_type/form__label_type_popup.scss';
+@import './blocks/form/__span/_type/form__span_type_popup.scss';
+
+@import './blocks/popup/popup.scss';
+@import './blocks/popup/_opened/popup_opened.scss';

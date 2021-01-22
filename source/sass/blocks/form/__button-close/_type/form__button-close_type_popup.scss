@@ -1,0 +1,59 @@
+.form__button-close_type_popup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+
+  width: 16px;
+  height: 16px;
+
+  border: none;
+
+  background-color: inherit;
+
+  cursor: pointer;
+
+  &::before {
+    content: '';
+
+    width: 23px;
+    height: 1px;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 50%;
+    right: -4px;
+
+    transform: rotate(-45deg);
+
+    border-radius: 5px;
+  }
+
+  &::after {
+    content: '';
+
+    width: 23px;
+    height: 1px;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 50%;
+    right: -4px;
+
+    transform: rotate(45deg);
+
+    border-radius: 5px;
+  }
+}
