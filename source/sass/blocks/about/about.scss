@@ -10,13 +10,13 @@
   width: 100%;
   max-width: 1270px;
 
-  background-image: url('../img/about-image.png');
+  background-image: url("../img/about-image.png");
   background-size: 220px 317px;
   background-repeat: no-repeat;
   background-position: top 80px left 20px;
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url('../img/about-image-retina.png');
+    background-image: url("../img/about-image-retina.png");
   }
 }
 

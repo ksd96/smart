@@ -2,4 +2,18 @@
   margin: 0;
   padding: 0;
   margin-bottom: 23px;
+
+  fill: #00b2ff;
+}
+
+@media (max-width: 1023px) {
+  .advantages__icon {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages__icon {
+    margin-bottom: 13px;
+  }
 }

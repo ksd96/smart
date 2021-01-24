@@ -9,11 +9,11 @@
   padding-right: 43px;
   padding-bottom: 66px;
 
-  border: 1px solid #EBEBEB;
-  border-left: 3px solid #00B2FF;
+  border: 1px solid #ebebeb;
+  border-left: 3px solid #00b2ff;
 
   box-sizing: border-box;
-  width: calc( 50% - 15px);
+  width: calc(50% - 15px);
   min-height: 299px;
 
   cursor: pointer;
@@ -22,7 +22,11 @@
 
 
   &:hover {
-    background-color: #00B2FF;
+    background-color: #00b2ff;
+
+    .advantages__icon {
+      fill: #ffffff;
+    }
 
     .advantages__title,
     .advantages__text {
@@ -35,7 +39,7 @@
   .advantages__item {
     min-height: 0;
 
-    border-left: 2px solid #00B2FF;
+    border-left: 2px solid #00b2ff;
 
     padding-top: 24px;
     padding-left: 26px;

@@ -7,16 +7,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    content: '';
+    content: "";
 
     width: 16px;
     height: 1px;
 
-    background-color: #C4C4C4;
+    background-color: #c4c4c4;
   }
 
   &::after {
-    content: '';
+    content: "";
 
     width: 16px;
     height: 1px;
@@ -26,6 +26,6 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
 
-    background-color: #C4C4C4;
+    background-color: #c4c4c4;
   }
 }

@@ -3,3 +3,16 @@
 
   margin-bottom: 30px;
 }
+
+.form__wrapper_type_popup input {
+  box-sizing: border-box;
+  width: 100%;
+
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 15px 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

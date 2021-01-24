@@ -9,13 +9,13 @@
   width: 180px;
   height: 45px;
 
-  border: 1px solid #00B2FF;
+  border: 1px solid #00b2ff;
   box-sizing: border-box;
   border-radius: 5px;
 
   background-color: inherit;
 
-  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -23,13 +23,13 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #00B2FF;
+  color: #00b2ff;
 
   cursor: pointer;
 
   &:hover,
   &:focus {
-    background-color: #00B2FF;
+    background-color: #00b2ff;
     color: #ffffff;
   }
 }

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
 
-  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -11,7 +11,7 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@
   width: 407px;
   height: 55px;
 
-  background-color: #00B2FF;
+  background-color: #00b2ff;
 
   border-radius: 5px;
   border: none;
@@ -29,13 +29,13 @@
   cursor: pointer;
 
   &::before {
-    content: 'Получить бесплатную консультацию';
+    content: "Получить бесплатную консультацию";
   }
 
   &:hover,
   &:focus {
-    background-color: #fff;
-    color: #00B2FF;
+    background-color: #ffffff;
+    color: #00b2ff;
   }
 }
 
@@ -56,7 +56,7 @@
     margin: 0 auto;
 
     &::before {
-      content: 'Бесплатная консультация';
+      content: "Бесплатная консультация";
     }
   }
 }

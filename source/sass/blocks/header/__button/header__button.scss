@@ -11,7 +11,7 @@
   padding: 0;
   margin-left: 50px;
 
-  font-family: 'Roboto Condensed', Arial, sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -19,9 +19,9 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 5px;
 
   background-color: inherit;
@@ -30,8 +30,8 @@
 
   &:hover,
   &:focus {
-    color: #00B2FF;
-    border: 1px solid #00B2FF;
+    color: #00b2ff;
+    border: 1px solid #00b2ff;
   }
 }
 

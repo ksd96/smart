@@ -4,21 +4,21 @@
 
   width: 100%;
 
-  background-color: #00B2FF;
+  background-color: #00b2ff;
 
-  background-image: url('../img/background-questions.png');
+  background-image: url("../img/background-questions.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1745px 765px;
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url('../img/background-questions-retina.png');
+    background-image: url("../img/background-questions-retina.png");
   }
 }
 
 @media (max-width: 1023px) {
   .questions {
     background: none;
-    background-color: #00B2FF;
+    background-color: #00b2ff;
   }
 }

@@ -1,5 +1,50 @@
+.form__checkbox input {
+  display: none;
+}
+
+.form__checkbox input:checked + label::before {
+  background-image: url("../img/icon-check.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form__checkbox label {
+  display: flex;
+
+  font-family: "PT Mono", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.form__checkbox label::before {
+  content: "";
+
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+
+  margin: 0;
+  padding: 0;
+  margin-right: 16px;
+
+  border: 1px solid #ffffff;
+}
+
 @media (max-width: 767px) {
   .form__checkbox {
+    width: 100%;
+  }
+
+  .form__checkbox label {
     width: 100%;
   }
 }
