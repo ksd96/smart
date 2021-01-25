@@ -39,6 +39,11 @@
   cursor: pointer;
 }
 
+.form__button-wrapper button:hover,
+.form__button-wrapper button:focus {
+  opacity: 0.5;
+}
+
 @media (max-width: 1023px) {
   .form__button-wrapper button {
     width: 279.88px;

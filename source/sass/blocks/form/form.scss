@@ -15,7 +15,9 @@
 .form textarea {
   box-sizing: border-box;
   width: 100%;
-  min-height: 154px;
+  height: 154px;
+
+  resize: none;
 
   margin: 0;
   padding: 13px 16px;
@@ -29,6 +31,7 @@
   color: #ffffff;
 
   border: none;
+  border-radius: 0;
 
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -44,7 +47,7 @@
   }
 
   .form textarea {
-    min-height: 161px;
+    height: 161px;
 
     margin-bottom: 46px;
   }
@@ -52,7 +55,7 @@
 
 @media (max-width: 767px) {
   .form textarea {
-    min-height: 104px;
+    height: 104px;
 
     margin-bottom: 30px;
   }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Печтаные платы">
+  <title>Smart Device</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="./fonts/PTMono-Regular.woff2" as="font">
+  <link rel="preload" href="./fonts/RobotoCondensed-Bold.woff" as="font">
+</head>
+<body class="page">
+  <div class="page__sprite">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+  <main class="main">
+    <section class="questions">
+        <div class="questions__wrapper">
+          <form action="#" method="post" class="questions__form form form_type_questions" name="questions-form">
+            <h2 class="form__title">Остались вопросы? Задайте их нам!</h2>
+            <p class="form__subtitle">Мы проконсультируем Вас бесплатно</p>
+            <div class="form__wrapper">
+              <label class="visually-hidden" for="name-questions">Имя</label>
+              <input id="name-questions" name="name" type="text" placeholder="Имя">
+              <label class="visually-hidden" for="phone-questions">Телефон</label>
+              <input id="phone-questions" name="phone" type="tel" placeholder="Телефон" maxlength="14">
+            </div>
+            <label class="visually-hidden" for="question-questions">Вопрос</label>
+            <textarea id="question-questions" name="question" placeholder="Ваш вопрос"></textarea>
+            <div class="form__button-wrapper">
+              <button type="submit">Задать вопрос</button>
+              <div class="form__checkbox">
+                <input id="check" type="checkbox">
+                <label for="check"><span class="form__span">Я согласен на обработку персональных данных</span></label>
+              </div>
+            </div>
+            <span class="form__invalid-text">Не все поля заполнены</span>
+          </form>
+        </div>
+      </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper-top">
+      <div class="footer__column footer__column_type_socials">
+        <a href="./index.html" aria-label="Ссылка на главную страницу" class="footer__logo-link">
+          <svg class="footer__logo" width="216" height="52" ><use xlink:href="#logo-footer"></use></svg>
+        </a>
+        <p class="footer__company">1999-2018 SD Service Devices</p>
+        <ul class="footer__socials">
+          <li class="footer__social-item">
+            <a href="#" aria-label="Ссылка на фейсбук" class="footer__social-link">
+              <svg class="footer__social-icon" width="27" height="27" ><use xlink:href="#logo-facebook"></use></svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#" aria-label="Ссылка на одноклассники" class="footer__social-link">
+              <svg class="footer__social-icon" width="27" height="27" ><use xlink:href="#logo-ok"></use></svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#" aria-label="Ссылка на вконтакте" class="footer__social-link">
+              <svg class="footer__social-icon" width="27" height="27" ><use xlink:href="#logo-vk"></use></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__wrapper-columns">
+        <div class="footer__column footer__column_type_nav">
+          <div class="footer__title-wrapper">
+            <h3 class="footer__title">Разделы сайта</h3>
+            <button class="footer__button footer__button_closed" aria-label="Закрыть раздел" type="button"></button>
+          </div>
+          <nav class="footer__nav footer__item">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">О компании</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Комплектующие</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Продукты</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Доставка</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Производство печатных плат</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Контакты</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Монтаж печатных плат</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column footer__column_type_contacts">
+          <div class="footer__title-wrapper">
+            <h3 class="footer__title">Наш офис</h3>
+            <button class="footer__button footer__button_closed" aria-label="Закрыть раздел" type="button"></button>
+          </div>
+          <ul class="footer__contacts footer__item">
+            <li class="footer__contact-item">г. Мытищи, Олимпийский проспект, д.10</li>
+            <li class="footer__contact-item">
+              <a href="tel:+74955894050" class="footer__contact-link">+7 (495) 589-40-50</a>
+            </li>
+            <li class="footer__contact-item">
+              <a href="tel:+79250038767" class="footer__contact-link">+7 (925) 003-87-67</a>
+            </li>
+            <li class="footer__contact-item">
+              <a href="tel:+792692608079" class="footer__contact-link">+7 (926) 926-080-79</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="footer__copyright-list">
+      <li class="footer__copyright-item footer__copyright-item_type_rights">Все права защищены</li>
+      <li class="footer__copyright-item footer__copyright-item_type_company">1999-2018 SD Service Devices</li>
+      <li class="footer__copyright-item footer__copyright-item_type_confidentiality">
+        <a href="#" class="footer__copyright-link">Условия конфиденциальности</a>
+      </li>
+      <li class="footer__copyright-item footer__copyright-item_type_developer">
+        <a href="#" class="footer__copyright-link">Developed by wow studio</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>

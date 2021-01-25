@@ -12,6 +12,12 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .intro {
+    background-position: top 31px right 0;
+  }
+}
+
 @media (max-width: 1023px) {
   .intro {
     background-image: url("../img/background-intro-tablet.png");

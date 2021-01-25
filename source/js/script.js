@@ -5,6 +5,10 @@
   const footerButtons = document.querySelectorAll(`.footer__button`);
   const footerLists = document.querySelectorAll(`.footer__item`);
 
+  footerButtons.forEach((button) => {
+    button.classList.remove(`footer__button_nojs`);
+  });
+
   footerLists.forEach((item) => {
     item.classList.add(`footer__item_closed`);
   });
@@ -38,7 +42,11 @@
   const buttonPopupOpen = document.querySelector(`.header__button`);
   const buttonPopupClose = document.querySelector(`.form__button-close`);
   const popup = document.querySelector(`.popup`);
+  const page = document.querySelector(`.page`);
   let namePopup = null;
+  if (buttonPopupOpen) {
+    buttonPopupOpen.setAttribute(`href`, `#`);
+  }
   if (formPopup) {
     namePopup = formPopup.querySelector(`[name="name"]`);
 
@@ -84,6 +92,7 @@
       localStorage.setItem(`phone`, phone.value);
       localStorage.setItem(`name`, name.value);
       localStorage.setItem(`question`, question.value);
+      form.submit();
       phone.value = ``;
       name.value = ``;
       question.value = ``;
@@ -95,12 +104,20 @@
   function openPopup() {
     if (popup) {
       popup.classList.add(`popup_opened`);
+      page.classList.add(`page_popup-opened`);
       namePopup.focus();
+      namePopup.value = `Имя`;
+      namePopup.addEventListener(`keydown`, () => {
+        if (namePopup.value === `Имя`) {
+          namePopup.value = ``;
+        }
+      });
     }
   }
   function closePopup() {
     if (popup) {
       popup.classList.remove(`popup_opened`);
+      page.classList.remove(`page_popup-opened`);
     }
   }
   if (formQuestions) {

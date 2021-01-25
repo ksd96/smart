@@ -2,6 +2,8 @@
 @import "../fonts/fonts.scss";
 @import "./blocks/page/page.scss";
 @import "./blocks/page/__sprite/page__sprite.scss";
+@import './blocks/page/_popup-opened/page_popup-opened.scss';
+@import './blocks/visually-hidden/visually-hidden.scss';
 @import "./blocks/header/header.scss";
 @import "./blocks/header/__container/header__container.scss";
 @import "./blocks/header/__link-logo/header__link-logo.scss";
@@ -39,6 +41,7 @@
 @import "./blocks/footer/__title/footer__title.scss";
 @import "./blocks/footer/__button/footer__button.scss";
 @import "./blocks/footer/__button/_closed/footer__button_closed.scss";
+@import './blocks/footer/__button/_nojs/footer__button_nojs.scss';
 @import "./blocks/footer/__nav/footer__nav.scss";
 @import "./blocks/footer/__nav-list/footer__nav-list.scss";
 @import "./blocks/footer/__nav-item/footer__nav-item.scss";

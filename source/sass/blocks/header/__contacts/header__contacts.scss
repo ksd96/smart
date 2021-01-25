@@ -5,6 +5,15 @@
 
   margin: 0;
   padding: 0;
+  margin-bottom: -15px;
 
   list-style: none;
+
+  max-width: 450px;
+}
+
+@media (max-width: 767px) {
+  .header__contacts {
+    max-width: 180px;
+  }
 }

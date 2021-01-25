@@ -16,7 +16,7 @@
   </div>
   <header class="header">
     <div class="header__container">
-      <a href="#" class="header__link-logo"></a>
+      <a aria-label="Логотип сайта" class="header__link-logo"></a>
       <div class="header__wrapper">
         <ul class="header__contacts">
           <li class="header__item">
@@ -32,14 +32,14 @@
             </a>
           </li>
         </ul>
-        <button class="header__button" type="button">Заказать звонок</button>
+        <a href="./form.html" class="header__button">Заказать звонок</a>
       </div>
     </div>
     <div class="intro">
       <div class="intro__wrapper">
         <h1 class="intro__title">Печатные платы</h1>
         <p class="intro__subtitle"><span class="intro__subtitle-text">производство и монтаж, поставка комплектующих, блоков и модулей</span></p>
-        <button class="intro__button" type="button"></button>
+        <button class="intro__button" aria-label="Получить бесплатную консультацию" type="button"></button>
         <button class="intro__button-down" type="button">Скролл вниз</button>
       </div>
     </div>
@@ -50,22 +50,22 @@
         <ul class="advantages__list">
           <li class="advantages__item">
             <svg class="advantages__icon" width="29" height="35"><use xlink:href="#icon-stopwatch"></use></svg>
-            <h3 class="advantages__title">Оперативные сроки</h3>
+            <h2 class="advantages__title">Оперативные сроки</h2>
             <p class="advantages__text">Усовершенствованная логистическая система позволяет нам просчитывать стоимость, производить и доставлять заказы плат и комплектующих в самые короткие сроки.</p>
           </li>
           <li class="advantages__item">
             <svg class="advantages__icon" width="35" height="35"><use xlink:href="#icon-hired"></use></svg>
-            <h3 class="advantages__title">Крупные поставщики</h3>
+            <h2 class="advantages__title">Крупные поставщики</h2>
             <p class="advantages__text">Нашими поставщиками являются такие крупные мировые компании как: OSRAM, CREE, HOLGLITRONIC, REFOND. Сотрудничество с такими компаниями обеспичивает хорошее качество нашей продукции.</p>
           </li>
           <li class="advantages__item">
             <svg class="advantages__icon" width="36" height="31"><use xlink:href="#icon-detective"></use></svg>
-            <h3 class="advantages__title">Полная конфиденциальность</h3>
+            <h2 class="advantages__title">Полная конфиденциальность</h2>
             <p class="advantages__text">По желанию клиента  мы обеспечиваем полную конфеденциальность.</p>
           </li>
           <li class="advantages__item">
             <svg class="advantages__icon" width="35" height="35"><use xlink:href="#icon-tag"></use></svg>
-            <h3 class="advantages__title">Персонализация стоимости</h3>
+            <h2 class="advantages__title">Персонализация стоимости</h2>
             <p class="advantages__text">Мы  подбираем определенную фабрику, поставщиков, вид доставки, чтобы установить ту цену, которая Вас устраивает.</p>
           </li>
         </ul>
@@ -75,7 +75,7 @@
           <h2 class="about__title">О компании</h2>
           <p class="about__text">Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые технологии с 1997 года. Выполняем срочные заказы и пилотные образцы до 10 дней.</p>
           <p class="about__text">Наши поставщики - мировые производители электронных компонентов: OSRAM, CREE, HOLGLITRONIC, REFOND. Печатные платы и комплектующие Service Devices применяются на предприятиях Российских Железных Дорог <span class="about__span">(РЖД), РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники. Среди наших клиентов крупнейшие Производители светотехники России</span>.</p>
-          <button class="about__button" type="button">Подробнее</button>
+          <a href="#" class="about__button">Подробнее</a>
         </div>
       </section>
     </div>
@@ -112,18 +112,21 @@
     </section>
     <section class="questions">
         <div class="questions__wrapper">
-          <form action="#" class="questions__form form form_type_questions" name="questions-form">
+          <form action="#" method="post" class="questions__form form form_type_questions" name="questions-form">
             <h2 class="form__title">Остались вопросы? Задайте их нам!</h2>
             <p class="form__subtitle">Мы проконсультируем Вас бесплатно</p>
             <div class="form__wrapper">
-              <input name="name" type="text" placeholder="Имя">
-              <input name="phone" type="tel" placeholder="Телефон" maxlength="14">
+              <label class="visually-hidden" for="name-questions">Имя</label>
+              <input id="name-questions" name="name" type="text" placeholder="Имя">
+              <label class="visually-hidden" for="phone-questions">Телефон</label>
+              <input id="phone-questions" name="phone" type="tel" placeholder="Телефон" maxlength="14">
             </div>
-            <textarea name="question" placeholder="Ваш вопрос"></textarea>
+            <label class="visually-hidden" for="question-questions">Вопрос</label>
+            <textarea id="question-questions" name="question" placeholder="Ваш вопрос"></textarea>
             <div class="form__button-wrapper">
               <button type="submit">Задать вопрос</button>
               <div class="form__checkbox">
-                <input id="check" type="checkbox">
+                <input id="check" class="visually-hidden" type="checkbox">
                 <label for="check"><span class="form__span">Я согласен на обработку персональных данных</span></label>
               </div>
             </div>
@@ -135,23 +138,23 @@
   <footer class="footer">
     <div class="footer__wrapper-top">
       <div class="footer__column footer__column_type_socials">
-        <a href="#" class="footer__logo-link">
+        <a href="#" aria-label="Ссылка на главную страницу" class="footer__logo-link">
           <svg class="footer__logo" width="216" height="52" ><use xlink:href="#logo-footer"></use></svg>
         </a>
         <p class="footer__company">1999-2018 SD Service Devices</p>
         <ul class="footer__socials">
           <li class="footer__social-item">
-            <a href="#" class="footer__social-link">
+            <a href="#" aria-label="Ссылка на фейсбук" class="footer__social-link">
               <svg class="footer__social-icon" width="27" height="27" ><use xlink:href="#logo-facebook"></use></svg>
             </a>
           </li>
           <li class="footer__social-item">
-            <a href="#" class="footer__social-link">
+            <a href="#" aria-label="Ссылка на одноклассники" class="footer__social-link">
               <svg class="footer__social-icon" width="27" height="27" ><use xlink:href="#logo-ok"></use></svg>
             </a>
           </li>
           <li class="footer__social-item">
-            <a href="#" class="footer__social-link">
+            <a href="#" aria-label="Ссылка на вконтакте" class="footer__social-link">
               <svg class="footer__social-icon" width="27" height="27" ><use xlink:href="#logo-vk"></use></svg>
             </a>
           </li>
@@ -161,7 +164,7 @@
         <div class="footer__column footer__column_type_nav">
           <div class="footer__title-wrapper">
             <h3 class="footer__title">Разделы сайта</h3>
-            <button class="footer__button footer__button_closed" type="button"></button>
+            <button class="footer__button footer__button_nojs footer__button_closed" aria-label="Закрыть раздел" type="button">Разделы сайта</button>
           </div>
           <nav class="footer__nav footer__item">
             <ul class="footer__nav-list">
@@ -192,7 +195,7 @@
         <div class="footer__column footer__column_type_contacts">
           <div class="footer__title-wrapper">
             <h3 class="footer__title">Наш офис</h3>
-            <button class="footer__button footer__button_closed" type="button"></button>
+            <button class="footer__button footer__button_nojs footer__button_closed" aria-label="Закрыть раздел" type="button">Наш офис</button>
           </div>
           <ul class="footer__contacts footer__item">
             <li class="footer__contact-item">г. Мытищи, Олимпийский проспект, д.10</li>
@@ -221,19 +224,22 @@
     </ul>
   </footer>
   <section class="popup">
-      <form action="#" class="popup__form form form_type_popup" name="popup-form">
-        <button class="form__button-close form__button-close_type_popup" type="button"></button>
+      <form action="#" method="POST" class="popup__form form form_type_popup" name="popup-form">
+        <button class="form__button-close form__button-close_type_popup" aria-label="Закрыть окно" type="button"></button>
         <h2 class="form__title form__title_type_popup">Закажите звонок</h2>
         <p class="form__subtitle form__subtitle_type_popup">Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
         <div class="form__wrapper form__wrapper_type_popup">
-          <input name="name" type="text" placeholder="Имя">
-          <input name="phone" type="tel" placeholder="Телефон" maxlength="14">
+          <label class="visually-hidden" for="name-popup">Имя</label>
+          <input id="name-popup" name="name" type="text" placeholder="Имя">
+          <label class="visually-hidden" for="phone-popup">Телефон</label>
+          <input id="phone-popup" name="phone" type="tel" placeholder="Телефон" maxlength="14">
         </div>
-        <textarea name="question" placeholder="Ваш вопрос"></textarea>
+        <label class="visually-hidden" for="question-popup">Вопрос</label>
+        <textarea id="question-popup" name="question" placeholder="Ваш вопрос"></textarea>
         <div class="form__button-wrapper form__button-wrapper_type_popup">
           <button type="submit">Отправить</button>
           <div class="form__checkbox">
-            <input id="check-popup" type="checkbox">
+            <input id="check-popup" class="visually-hidden" type="checkbox">
             <label for="check-popup"><span class="form__span form__span_type_popup">Я согласен на обработку персональных данных</span></label>
           </div>
         </div>

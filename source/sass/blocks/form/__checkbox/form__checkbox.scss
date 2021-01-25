@@ -1,5 +1,8 @@
-.form__checkbox input {
-  display: none;
+.form__checkbox input:focus + label::before,
+.form__checkbox input:focus + label,
+.form__checkbox input:hover + label::before,
+.form__checkbox input:hover + label {
+  opacity: 0.5;
 }
 
 .form__checkbox input:checked + label::before {

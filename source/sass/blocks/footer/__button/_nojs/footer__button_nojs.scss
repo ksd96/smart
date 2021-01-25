@@ -1,0 +1,6 @@
+.footer__button_nojs {
+  &::before,
+  &::after {
+    display: none;
+  }
+}
