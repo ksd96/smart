@@ -85,8 +85,16 @@
     const checkbox = form.querySelector(`[type="checkbox"]`);
     const invalidText = form.querySelector(`.form__invalid-text`);
     if (phone.value.length < 14 || !checkbox.checked) {
-      if (!invalidText.classList.contains(`form__invalid-text_active`)) {
-        invalidText.classList.add(`form__invalid-text_active`);
+      if (phone.value.length < 14) {
+        invalidText.textContent = `Укажите номер телефона`;
+        if (!invalidText.classList.contains(`form__invalid-text_active`)) {
+          invalidText.classList.add(`form__invalid-text_active`);
+        }
+      } else if (!checkbox.checked) {
+        invalidText.textContent = `Согласитесь на обработку персональных данных`;
+        if (!invalidText.classList.contains(`form__invalid-text_active`)) {
+          invalidText.classList.add(`form__invalid-text_active`);
+        }
       }
     } else {
       localStorage.setItem(`phone`, phone.value);
@@ -188,3 +196,4 @@
     });
   }
 }());
+
