@@ -84,8 +84,13 @@
     const question = form.querySelector(`[name="question"]`);
     const checkbox = form.querySelector(`[type="checkbox"]`);
     const invalidText = form.querySelector(`.form__invalid-text`);
-    if (phone.value.length < 14 || !checkbox.checked) {
-      if (phone.value.length < 14) {
+    if (phone.value.length < 14 || !checkbox.checked || name.value === ``) {
+      if (name.value === ``) {
+        invalidText.textContent = `Укажите свое имя`;
+        if (!invalidText.classList.contains(`form__invalid-text_active`)) {
+          invalidText.classList.add(`form__invalid-text_active`);
+        }
+      } else if (phone.value.length < 14) {
         invalidText.textContent = `Укажите номер телефона`;
         if (!invalidText.classList.contains(`form__invalid-text_active`)) {
           invalidText.classList.add(`form__invalid-text_active`);

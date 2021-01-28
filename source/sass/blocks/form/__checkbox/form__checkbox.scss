@@ -1,3 +1,7 @@
+.form__checkbox {
+  order: 2;
+}
+
 .form__checkbox input:focus + label::before,
 .form__checkbox input:focus + label,
 .form__checkbox input:hover + label::before,
